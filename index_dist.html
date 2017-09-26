@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>VISUM Running Dinner Matching</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- libraries -->
+    <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="lib/core-estimator.js"></script>
+    <script type="text/javascript" src="lib/jquery.resize.js"></script>
+    <script type="text/javascript" src="lib/key-polyfill.js"></script>
+    <script type="text/javascript" src="lib/fuse.min.js"></script>
+    <script type="text/javascript" src="lib/emailjs.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+    <!-- app -->
+    <link type="text/css" rel="stylesheet" href="app.css"/>
+    <script type="text/javascript" src="app.min.js"></script>
+    <script type="text/plain" id="workercode">${WORKERCODE}</script>
+  </head>
+  <body>
+    <div id="header-row">
+      <img src="logo.png">
+      <h1>
+        Running Dinner
+      </h1>
+      <div id="loading"></div>
+    </div>
+
+    <div id="main-row">
+      <div id="tabs" class="tabs">
+      </div>
+      <div id="tab-content">
+      </div>
+    </div>
+    <div id="footer-row">
+    </div>
+  </body >
+</html>
